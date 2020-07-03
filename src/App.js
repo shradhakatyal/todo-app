@@ -41,6 +41,7 @@ const App = () => {
 
   return (
     <div className='app'>
+      <h1 className='heading'>Task List</h1>
       <div className='todo-list'>
         {
           todos.map((todo, index) => (

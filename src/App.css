@@ -4,6 +4,13 @@
   height: 100vh;
 }
 
+.heading {
+  margin: 30px auto 60px auto;
+  color: #fff;
+  text-align: center;
+  text-decoration: underline;
+}
+
 .todo-list {
   background: #e8e8e8;
   border-radius: 4px;
