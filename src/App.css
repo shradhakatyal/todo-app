@@ -1,0 +1,17 @@
+.app {
+  background: #209cee;
+  padding: 30px;
+  height: 100vh;
+}
+
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  padding: 5px;
+  max-width: 400px;
+  margin: 0 auto;
+}

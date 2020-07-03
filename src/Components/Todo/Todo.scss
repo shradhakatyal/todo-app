@@ -1,0 +1,39 @@
+.todo {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 6px 10px;
+  font-size: 13px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo.completed {
+  text-decoration: line-through;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 13px;
+  padding: 3px 10px;
+  border-radius: 3px;
+}
+
+.complete-button {
+  background: #3fd467;
+  color: #fff;
+}
+
+.delete-button {
+  background: #f23d3d;
+  color: #fff;
+  margin-left: 15px;
+}
