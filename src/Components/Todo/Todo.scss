@@ -1,4 +1,5 @@
 .todo {
+  position: relative;
   background: #fff;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
   padding: 6px 10px;
@@ -12,10 +13,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  p {
+    width: 60%;
+  }
 }
 
 .todo.completed {
   text-decoration: line-through;
+}
+
+.button-container {
+  position: absolute;
+  right: 10px;
 }
 
 button {
@@ -25,6 +34,10 @@ button {
   font-size: 13px;
   padding: 3px 10px;
   border-radius: 3px;
+  @media all and (max-width: 450px) {
+    display: block;
+    width: 76px;
+  }
 }
 
 .complete-button {
@@ -36,4 +49,8 @@ button {
   background: #f23d3d;
   color: #fff;
   margin-left: 15px;
+  @media all and (max-width: 450px) {
+    margin-left: 0;
+    margin-top: 3px;
+  }
 }
